@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="main">
+		<div id="entryDiv">
+				<div id="entry">
+					<table>
+					<tr>
+						<th colspan="2">Enter Information:</th>
+					</tr>
+					<tr>
+						<td>Script Name:</td>
+						<td><input id="scriptEntry" type="text" name="" required value="SLI"></td>
+					</tr>
+					<tr>
+						<td>Units:</td>
+						<td><input id="unitEntry" type="number" value=400></input></td>
+					</tr>
+					<tr>
+						<td>Buy Price:</td>
+						<td>
+							<input id="buyPriceEntry" type="number" value=300></input>
+						</td>
+					</tr>
+					<tr>
+						<td>Sold Unit</td>
+						<td><input id="soldUnitEntry" type="number" value=100></input></td>
+					</tr>
+					<tr>
+						<td>Sold Price:</td>
+						<td>
+							<input id="soldPriceEntry" type="number" value=599></input>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="buttonRow"><button id="btn" onclick="submit()">Submit</button></td>
+					</tr>
+					<!--<tr>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>-->
+				</table>
+				</div>
+		</div>
+
+
+		<div class="title">Portfolio Summary</div>
+		<div class="summary">
+			<div class="unit">
+				<label class="unitNumber number">990</label><br>
+				<label>Total Units</label>
+			</div>
+			<div class="total">
+				<label class="unitNumber number">Rs 39,68,000</label><br>
+				<label>Total</label>
+			</div>
+			<div class="currentValue">
+				<label class="unitNumber number">Rs 46,00,450</label><br>
+				<label>Current Value</label>
+			</div>
+			<div class="soldValue">
+				<label class="unitNumber number">Rs 0</label><br>
+				<label>Sold Value</label>
+			</div>
+			<div class="overallProfit">
+				<label class="overallProfitNumber green number">Rs 25000</label><br>
+				<label>Overall Profit</label>
+			</div>
+			<div class="todaysProfit">
+				<label class="todaysProfitNumber number green">Rs 10,000</label><br>
+				<label>Today's Profit</label>
+			</div>
+		</div><!-- 
+		<div class="summary"></div>
+		<div class="summary"></div> -->
+
+
+		<div class="holding">Holdings</div>
+		<div class="script" id="script">
+			<!-- <div class="emptyMessage">No holding available</div> -->
+
+			
+			<!-- this commented section is format of the front end view which has been created using javascript -->
+			<!-- <div class="child">
+				<div class="top">
+					<label class="scriptName left">JOSHI</label>
+					<label class="scriptUnits right"><span class="scriptUnitNumber Number"></span>Units</label>
+				</div>
+				<div class="scriptChildBottom">
+					<div class="scriptSoldUnit">
+						<label class="scriptSoldUnitNumber Number prefix">20.0</label>
+						<label class="suffix">Sold Units</label>
+					</div>
+					<div class="scriptLtp">
+						<label class="scriptLtpNumber scriptNumber green prefix">RS 54,990</label>
+						<label>LTP</label>
+					</div>
+					<div class="scriptCurrentValue">
+						<label class="scriptCurrentValueNumber scriptNumber prefix">Rs 46,00,450</label>
+						<label>Current Value</label>
+					</div>
+					<div class="scriptInvestment">
+						<label class="scriptInvestmentNumber scriptNumber prefix">Rs 30,990</label>
+						<label>Investment</label>
+					</div>
+					<div class="scriptSoldAmount">
+						<label class="scriptSoldAmountNumber scriptNumber prefix">Rs 39,68,000</label>
+						<label>Sold Amount</label>
+					</div>
+					<div class="scriptDividend">
+						<label class="scriptDividendNumber scriptNumber prefix">Rs 0.0</label>
+						<label>Dividend</label>
+					</div>
+					<div class="scriptProfitPercentage">
+						<label class="profitPercentageNumber scriptNumber green prefix">40%</label>
+						<label>Profit Percentage</label>
+					</div>
+					<div class="scriptOverallProfit">
+						<label class="overallProfitNumber green scriptNumber prefix">Rs 25000</label>
+						<label>Overall Profit</label>
+					</div>
+					<div class="scriptTodaysProfit">
+						<label class="scriptTodaysProfitNumber scriptNumber green prefix">Rs 10,000</label>
+						<label>Today's Profit</label>
+					</div>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+		</div>
+
+
+		 -->
+		<img src="https://img.icons8.com/ios/100/000000/plus--v1.png" class="addScript" onclick="displayEntry()"></img>
+		<!-- <div class="plus"></div> -->
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
